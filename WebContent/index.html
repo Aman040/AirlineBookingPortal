@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FlyAway</title>
+<style>
+h1 {
+	text-align: center;
+	border-style: solid;
+	color: red;
+}
+</style>
+</head>
+<body style="background: #FFFF5350;">
+	<fieldset>
+		
+		<legend style="text-align: center;">FlyAway</legend>
+	
+		<h1
+			style="background-color: powderblue; height: 200px; width: 1300px;">FlyAway</h1>
+		<br>
+		<fieldset>
+			<legend>Search Flights</legend>
+			<form method="post" action="flight-details">
+				<label>Source</label> <select id="source" name="source">
+					<option></option>
+					<option value="Bangalore">Bangalore</option>
+					<option value="Kolkata">Kolkata</option>
+					<option value="Mumbai">Mumbai</option>
+					<option value="Chennai">Chennai</option>
+					<option value="Hyderabad">Hyderabad</option>
+					<option value="Lucknow">Lucknow</option>
+					<option value="Nagpur">Nagpur</option>
+					<option value="Goa">Goa</option>
+				</select> <label>Destination</label> <select id="destination"
+					name="destination">
+					<option></option>
+					<option value="Bangalore">Bangalore</option>
+					<option value="Kolkata">Kolkata</option>
+					<option value="Mumbai">Mumbai</option>
+					<option value="Chennai">Chennai</option>
+					<option value="Hyderabad">Hyderabad</option>
+					<option value="Lucknow">Lucknow</option>
+					<option value="Nagpur">Nagpur</option>
+					<option value="Goa">Goa</option>
+				</select> <label>Travellers</label> 
+				<input type="number"
+					onkeypress="return event.charCode >= 48" min="1" name="travellers"> <label>Journey
+					Date</label> <input type="date" id="date" name="date">
+				<button value="submit">Submit</button>
+			</form>
+		</fieldset>
+		<br>
+	</fieldset>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<fieldset style="vertical-align: bottom; background-color: powderblue;">
+		<form>
+			<input type="button" onclick="document.location.href='about.html'" value="About Flyaway" style="color: red; width: 650px;">
+			<input type="button" onclick="document.location.href='invester.html'" value="Invester Relations" style="color: red; width: 650px;">
+		</form>
+	</fieldset>
+</body>
+</html>
